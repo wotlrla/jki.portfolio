@@ -1,0 +1,1 @@
+An independent project where I am challenged to create a robot assembly without using fasteners! This boosted my CAD skills by minimising the amount of plastic used and use creative thinking. Later in the year, a completely working version will be shown here in untethered form.
