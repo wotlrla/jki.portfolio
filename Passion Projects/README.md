@@ -27,7 +27,7 @@ Outside of my courses, I will also be part of a student team developing a satell
 I will be applying skills learned at university, such as **CAD Modelling** and **KiCad**, to develop payload experiments that will be integrated into a shared CubeSat platform. Gaining hands-on experience in aerospace applications like this will continue to develop my skills as an engineering student, and I hope to make a meaningful impact in whichever industry I pursue.
 
 <p align="center">
-  <img src="./NZUSC.png" alt="NZUSC Challenge" width="60%"> <br>
+  <img src="./NZUSC.png" alt="NZUSC Challenge" width="45%"> <br>
   <i>Figure 2: NZUSC Challenge</i>
 </p>
 
@@ -54,6 +54,7 @@ With a broader understanding of power electronics under my belt, I wanted to exp
 Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working on this project with two other people, so stay tuned for updates throughout the year!
 
 <p align="center">
-  <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard of CMOS" width="35%"> <br>
-  <i>Figure 4: Breadboard circuit of a CMOS</i>
+  <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="30%" >
+  <img src="./Solar Car/breadBoardCMOS2.png" alt="Breadboard circuit of a CMOS" width="30%"> <br>
+  <i>Figure 4: Breadboard circuit of a CMOS </i>
 </p>
