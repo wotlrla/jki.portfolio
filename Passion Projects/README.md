@@ -3,7 +3,7 @@
 Using skills learned from my University courses, I have created a schematic using **KiCAD** where I will test it in real life applications such as UAV and rocketry. A PCB will be displayed here later during the year from the schematic layout. The build will use COTS components such as the Raspberry Pi RP2354A along with plans to implement a accelerometer and barometer to collect relevant data.
 
 <p align="center">
-  <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Flight Computer"><br>
+  <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Flight Computer" width="65%"> <br>
   <i>Figure 1: Schematic of Flight Computer</i>
 </p>
 
@@ -27,7 +27,7 @@ Outside of my courses, I will also be part of a student team developing a satell
 I will be applying skills learned at university, such as **CAD Modelling** and **KiCad**, to develop payload experiments that will be integrated into a shared CubeSat platform. Gaining hands-on experience in aerospace applications like this will continue to develop my skills as an engineering student, and I hope to make a meaningful impact in whichever industry I pursue.
 
 <p align="center">
-  <img src="./NZUSC.png" alt="NZUSC Challenge"><br>
+  <img src="./NZUSC.png" alt="NZUSC Challenge" width="60%"> <br>
   <i>Figure 2: NZUSC Challenge</i>
 </p>
 
@@ -44,6 +44,16 @@ A roadmap of what I would love to build on includes:
 
 <p align="center">
   <img src="./Audio Amplifier/audioAmplifierSchematic.png" alt="Schematic of Audio Amplifier" width="45%" >
-  <img src="./Audio Amplifier/topViewPCB.png" alt="3D PCB layout" width="45%" ><br>
+  <img src="./Audio Amplifier/topViewPCB.png" alt="3D PCB layout" width="45%"> <br>
   <i>Figure 3: Schematic and 3D PCB layout of Audio Amplifier </i>
+</p>
+
+## Solar Car
+With a broader understanding of power electronics under my belt, I wanted to explore a purely analogue design using a **CMOS-based buck converter** as a step-down DC-DC power conversion stage. Since the solar car relies on photovoltaic power from the sun, the PCB layout must be as efficient as possible. Minimising trace lengths and ensuring optimal signal feedback are key design considerations for this project.
+
+Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working on this project with two other people, so stay tuned for updates throughout the year!
+
+<p align="center">
+  <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard of CMOS" width="35%"> <br>
+  <i>Figure 4: Breadboard circuit of a CMOS</i>
 </p>
