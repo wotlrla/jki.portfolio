@@ -1,8 +1,11 @@
-This was a group project of three during the course of my degree. The project taught me more about testing and validating hardware and PCB Design than I would have thought! Working in a team to communicate effectively and meet design requirements was also an important factor in the outcome for this project.
+# Line-Following Robot
 
-My role was the three PCB's along with the wheel assembly for the robot!! The .ino file is the code for the robot which I designed to allow the hardware and software to work together. My group members worked on the robot chassis along with integrating the sensor array into the robot.
+This was a group project of three during the course of my degree. The project taught me more about **testing, validating hardware and PCB Design** than I would have thought! Working in a team to communicate effectively and meet design requirements was also an important factor in the outcome for this project.
 
-Note that the microprocessor PCB had several issues identified during testing. A labelling error in the PCB design caused the battery voltage and regulated voltage to be swapped, resulting in the entire board receiving the battery voltage of +5.2 V instead of the regulated +3.3 V supply. This issue was resolved by placing the voltage regulator externally and connecting it via wires to the correct locations on the PCB.
+My role was the three PCB's along with the wheel assembly for the robot. The .ino file is the code for the robot which I designed to allow the hardware and software to work together. My group members worked on the robot chassis along with integrating the sensor array into the robot.
+
+## Note:
+The microprocessor PCB had several issues identified during testing. A labelling error in the PCB design caused the battery voltage and regulated voltage to be swapped, resulting in the entire board receiving the battery voltage of +5.2 V instead of the regulated +3.3 V supply. This issue was resolved by placing the voltage regulator externally and connecting it via wires to the correct locations on the PCB.
 
 The power input to the microprocessor had also been routed through an unnecessary capacitor and resistor (R3 and C6 on the schematic). To solve this, the capacitor and resistor were omitted during assembly, and a wire was soldered to bypass the circuit, connecting the voltage regulator output directly to the microprocessor input.
 
