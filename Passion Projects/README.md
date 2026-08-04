@@ -1,6 +1,6 @@
 ## Avionics Flight Computer
 
-Using skills learned from my University courses, I have created a schematic using **KiCAD** where I will test it in real life applications such as UAV and rocketry. A PCB will be displayed here later during the year from the schematic layout. The build will use COTC components such as the Raspberry Pi RP2354A along with accelerometers and barometers to collect relevant data.
+Using skills learned from my University courses, I have created a schematic using **KiCAD** where I will test it in real life applications such as UAV and rocketry. A PCB will be displayed here later during the year from the schematic layout. The build will use COTS components such as the Raspberry Pi RP2354A along with accelerometers and barometers to collect relevant data.
 
 <p align="center">
   <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Flight Computer"><br>
