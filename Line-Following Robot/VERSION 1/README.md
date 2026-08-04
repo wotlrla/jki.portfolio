@@ -4,6 +4,11 @@ This was a group project of three during the course of my degree. The project ta
 
 My role was the three PCB's along with the wheel assembly for the robot. The .ino file is the code for the robot which I designed to allow the hardware and software to work together. My group members worked on the robot chassis along with integrating the sensor array into the robot.
 
+<p align="center">
+  <img src="./LFR_real_life_design.png" alt="Build of Robot"><br>
+  <i>Figure 1: Photo of robot build</i>
+</p>
+
 ## Note:
 The microprocessor PCB had several issues identified during testing. A labelling error in the PCB design caused the battery voltage and regulated voltage to be swapped, resulting in the entire board receiving the battery voltage of +5.2 V instead of the regulated +3.3 V supply. This issue was resolved by placing the voltage regulator externally and connecting it via wires to the correct locations on the PCB.
 
