@@ -49,7 +49,7 @@ A roadmap of what I would love to build on includes:
 </p>
 
 ## Solar Car
-With a broader understanding of power electronics under my belt, I wanted to explore a purely analogue design using a **CMOS-based buck converter** as a step-down DC-DC power conversion stage. Since the solar car relies on photovoltaic power from the sun, the PCB layout must be as efficient as possible. Minimising trace lengths and ensuring optimal signal feedback are key design considerations for this project.
+With a broader understanding of power electronics under my belt, I wanted to explore a purely analogue design using a **CMOS-based buck converter** as a step-down DC-DC power conversion stage. Since the solar car relies on photovoltaic power from the sun, the PCB layout must be as efficient as possible. Minimising trace lengths and ensuring optimal signal feedback are key design considerations for this project. Using LT-Spice simulation, I can check whether my calculations match expected values.
 
 Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working on this project with two other people, so stay tuned for updates throughout the year!
 
