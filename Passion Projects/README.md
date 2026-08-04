@@ -13,7 +13,7 @@ Outside of my courses, I enjoy applying what I learn to real-world applications 
 
 For now, here is a roadmap of the progress I've made:
 
-* **Performed** the relevant calculations for four 16 × 8 inch propellers and determined the minimum number of solar panels required to power four low-KV brushless DC motors.
+* **Performed** the relevant calculations for four 16 × 8 inch propellers and determined the minimum number of solar panels required to power four low-KV brushless DC motors (so the project is feasible).
 * **Compiled** a bill of materials (BOM) required for the build.
 * **Designed** a proof of concept for the first revision of the solar-powered drone.
 
