@@ -17,14 +17,14 @@ For now, here is a roadmap of the progress I've made:
 * **Compiled** a bill of materials (BOM) required for the build.
 * **Designed** a proof of concept for the first revision of the solar-powered drone.
 
-The electronics will use COTS components, including an **F405 flight controller** and a **60A ESC32** stack. This project pairs well with my avionics flight computer project as I continue learning more about electronics and their UAV applications outside of my coursework. It also gives me the opportunity to integrate the flight computer with the drone in the future.
+The electronics will use COTS components, including an **F405 Flight Controller** and a **60A ESC32** stack. This project pairs well with my avionics flight computer project as I continue learning more about electronics and their UAV applications outside of my coursework. It also gives me the opportunity to integrate the flight computer with the drone in the future.
 
 The reason for using large-diameter propellers and low-KV motors is purely for efficiency. Since the system is inherently energy-constrained due to its reliance on solar power, it is important to maximise efficiency wherever possible and justify every design choice against the project's requirements.
 
 ## New Zealand Undergraduate Space Challenge
 Outside of my courses, I will also be part of a student team developing a satellite designed for launch into space! Working in a multidisciplinary team will naturally bring communication challenges, but I have always seen these as valuable learning opportunities. Separate from the UC Aerospace Club, but under the supervision of engineering faculty such as Phil Gadsby, I am always eager to create new things and tackle challenging engineering problems!
 
-I will be applying skills learned at university, such as **CAD modelling** and **KiCad**, to develop payload experiments that will be integrated into a shared CubeSat platform. Gaining hands-on experience in aerospace applications like this will continue to develop my skills as an engineering student, and I hope to make a meaningful impact in whichever industry I pursue.
+I will be applying skills learned at university, such as **CAD Modelling** and **KiCad**, to develop payload experiments that will be integrated into a shared CubeSat platform. Gaining hands-on experience in aerospace applications like this will continue to develop my skills as an engineering student, and I hope to make a meaningful impact in whichever industry I pursue.
 
 <p align="center">
   <img src="./NZUSC.png" alt="NZUSC Challenge"><br>
