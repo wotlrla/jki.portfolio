@@ -53,7 +53,7 @@ A roadmap of what I would love to build on includes:
 ## Solar Car
 With a broader understanding of power electronics under my belt, I wanted to explore a purely analogue design using a **PMOS/NMOS Synchronous Buck Converter** as a step-down DC-DC power conversion stage. Since the solar car relies on photovoltaic power from the sun, the PCB layout must be as efficient as possible. Minimising trace lengths and ensuring optimal signal feedback are key design considerations for this project. Using **LTspice simulation**, I can check whether my calculations match expected values.
 
-Further improvements to the design could be explored by adding a bootstrap circuit to maximise power efficiency. This would effectively turn the circuit into a **Dual-NMOS Synchronous Buck Converter**, which minimises switching losses and reduces the amount of noise affecting our signal feedback.
+Further improvements to the design could be explored by replacing the high-side PMOS with an NMOS and adding a bootstrap gate-drive circuit. This would create a **Dual-NMOS Synchronous Buck Converter**, potentially reducing conduction losses and improving the overall efficiency of the converter. Maximising efficiency in this way allows more of the available solar power to be delivered to the motor drivers while reducing power lost as heat. 
 
 Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working on this project with two other people, so stay tuned for updates throughout the year!
 
