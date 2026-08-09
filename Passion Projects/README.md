@@ -1,9 +1,12 @@
 ## Avionics Flight Computer
 
-Using skills learned from my University courses, I have created a schematic using **KiCAD** where I will test it in real life applications such as UAV and rocketry. A PCB will be displayed here later during the year from the schematic layout. The build will use COTS components such as the Raspberry Pi RP2354A along with plans to implement a accelerometer and barometer to collect relevant data.
+Using skills learned from my university courses, I have created a schematic using **KiCad** that I will test in real-world applications such as those found in UAVs and rocketry. This project involves design tasks such as schematic circuit design, verification, and characterisation, using COTS components such as the Raspberry Pi RP2354A. It also involves testing and validating hardware using tools such as oscilloscopes, as well as working with instrumentation such as accelerometers and barometers.
+
+A PCB based on the schematic layout will also be displayed here later in the year! The design is intended to be retrofitted inside the payload tube of a high-power rocket and will therefore be designed to withstand large G-forces that can affect the accuracy of the instruments and electronics.
+
 
 <p align="center">
-  <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Flight Computer" width="65%"> <br>
+  <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Flight Computer" width="80%"> <br>
   <i>Figure 1: Schematic of Flight Computer</i>
 </p>
 
@@ -27,7 +30,7 @@ Outside of my courses, I will also be part of a student team developing a satell
 I will be applying skills learned at university, such as **CAD Modelling** and **KiCad**, to develop payload experiments that will be integrated into a shared CubeSat platform. Gaining hands-on experience in aerospace applications like this will continue to develop my skills as an engineering student, and I hope to make a meaningful impact in whichever industry I pursue.
 
 <p align="center">
-  <img src="./NZUSC.png" alt="NZUSC Challenge" width="45%"> <br>
+  <img src="./NZUSC.png" alt="NZUSC Challenge" width="65%"> <br>
   <i>Figure 2: NZUSC Challenge</i>
 </p>
 
@@ -49,12 +52,14 @@ A roadmap of what I would love to build on includes:
 </p>
 
 ## Solar Car
-With a broader understanding of power electronics under my belt, I wanted to explore a purely analogue design using a **CMOS-based buck converter** as a step-down DC-DC power conversion stage. Since the solar car relies on photovoltaic power from the sun, the PCB layout must be as efficient as possible. Minimising trace lengths and ensuring optimal signal feedback are key design considerations for this project. Using **LTspice simulation**, I can check whether my calculations match expected values.
+With a broader understanding of power electronics under my belt, I wanted to explore a purely analogue design using a **PMOS/NMOS Synchronous Buck Converter** as a step-down DC-DC power conversion stage. Since the solar car relies on photovoltaic power from the sun, the PCB layout must be as efficient as possible. Minimising trace lengths and ensuring optimal signal feedback are key design considerations for this project. Using **LTspice simulation**, I can check whether my calculations match expected values.
+
+Further improvements to the design could be explored by adding a bootstrap circuit to maximise power efficiency. This would effectively turn the circuit into a **Dual-NMOS Synchronous Buck Converter**, which minimises switching losses and reduces the amount of noise affecting our signal feedback.
 
 Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working on this project with two other people, so stay tuned for updates throughout the year!
 
 <p align="center">
-  <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="30%" >
-  <img src="./Solar Car/breadBoardCMOS2.png" alt="Breadboard circuit of a CMOS" width="30%"> <br>
+  <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="35%" >
+  <img src="./Solar Car/breadBoardCMOS2.png" alt="Breadboard circuit of a CMOS" width="35%"> <br>
   <i>Figure 4: Breadboard circuit of a CMOS </i>
 </p>
