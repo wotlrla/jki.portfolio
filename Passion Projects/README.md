@@ -2,7 +2,7 @@
 
 Using skills learned from my university courses, I have created a schematic using **KiCad** that I will test in real-world applications such as those found in UAVs and rocketry. This project involves design tasks such as schematic circuit design, verification, and characterisation, using COTS components such as the Raspberry Pi RP2354A. It also involves testing and validating hardware using tools such as oscilloscopes, as well as working with instrumentation such as accelerometers and barometers.
 
-A PCB based on the schematic layout will also be displayed here later in the year! The design is intended to be retrofitted inside the payload tube of a high-power rocket and will therefore be designed to withstand large G-forces that can affect the accuracy of the instruments and electronics.
+A PCB based on the schematic layout will also be displayed here later in the year! The computer is intended to be fitted inside the payload tube of a high-power rocket and will therefore be designed to withstand large G-forces that can affect the accuracy of the instruments and electronics.
 
 
 <p align="center">
