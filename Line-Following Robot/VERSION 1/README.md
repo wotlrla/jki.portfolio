@@ -5,7 +5,7 @@ This was a group project of three during the course of my degree. The project ta
 My role was the three PCB's along with the wheel assembly for the robot. C++ was used to code the robot which I designed to allow the hardware and software to work together. My group members worked on the robot chassis along with integrating the sensor array into the robot!
 
 <p align="center">
-  <img src="./LFR_real_life_design.png" alt="Build of Robot" width="70%"><br>
+  <img src="./LFR_real_life_design.png" alt="Build of Robot"><br>
   <i>Figure 1: Photo of robot build</i>
 </p>
 
