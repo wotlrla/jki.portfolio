@@ -13,7 +13,9 @@ Future iterations of the rocket will represent UC for the AURC 27 competition as
 </p>
 
 <p align="center">
-  <img src="./Manufacturing/IMG_1123.jpg" alt="Unpainted Version of Rocket" width="45%" >
-  <img src="./Manufacturing/IMG_4892.jpg" alt="Painted Version of Rocket without Sponsors" width="45%"> <br>
-  <i>Figure 1: Complete Assembly of Rocket </i>
+  <img src="./Manufacturing/IMG_1123.jpg" alt="Unpainted Version of Rocket" width="35%" >
+  <img src="./Manufacturing/IMG_4892.jpg" alt="Painted Version of Rocket without Sponsors" width="35%"> <br>
+  <i>Figure 2: Complete Assembly of Rocket </i>
 </p>
+
+[![Pneumatic Sanding of Bogged Rocket](./Manufacturing/20260503_223115.jpg)](./Manufacturing/VID_0_20260504012638.mp4)
