@@ -2,7 +2,7 @@
 
 This was a group project of three during the course of my degree. The project taught me more about **testing**, **validating hardware**, and **PCB design** than I would have thought! Working in a team to communicate effectively and meet design requirements was also an important factor in the outcome for this project.
 
-My role was the three PCB's along with the wheel assembly for the robot. The .ino file is the code for the robot which I designed to allow the hardware and software to work together. My group members worked on the robot chassis along with integrating the sensor array into the robot.
+My role was the three PCB's along with the wheel assembly for the robot. C++ was used to code the robot which I designed to allow the hardware and software to work together. My group members worked on the robot chassis along with integrating the sensor array into the robot!
 
 <p align="center">
   <img src="./LFR_real_life_design.png" alt="Build of Robot"><br>
