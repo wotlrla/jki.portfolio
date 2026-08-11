@@ -20,5 +20,5 @@ An independent project where I am challenged to create a robot assembly without 
 <p align="center">
   <img src="./KiCad/motorDriverPCB.png" alt="PCB Layout" width="35%" >
   <img src="./KiCad/motorDriverTopView3D.png" alt="3D PCB Layout" width="35%"> <br>
-  <i>Figure 2: PCB Layout of Robot </i>
+  <i>Figure 3: PCB Layout of Robot </i>
 </p>
