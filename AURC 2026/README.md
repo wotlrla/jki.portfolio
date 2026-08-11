@@ -1,3 +1,5 @@
+
+
 # Australian Universities Rocketry Competition (Kōtare)
 
 I've worked on the AURC Competition rocket as part of the UC Aerospace Club outside of my coursework! My role was supporting the avionics team lead by designing the Featherweight and COTS battery holders for the fibreglass PCB sled. I also created various fibreglass and carbon-fibre composites as part of the manufacturing process and was involved in integrating two subsystems (the airbrakes into the payload and booster tubes) through the use of 3D-printed jigs designed in SolidWorks.
@@ -7,8 +9,8 @@ Future iterations of the rocket will represent UC for the AURC 27 competition as
 **NB:** This is a UC Aerospace project intended for the AURC 26 competition at White Cliffs, NSW.
 
 <p align="center">
-  <img src="./Avionics & Airbrakes/20260503_181810.jpg" alt="3D-Printed Airbrakes" width="45%" >
-  <img src="./Avionics & Airbrakes/20260503_181944.jpg" alt="CNC Machined Airbrakes" width="45%"> <br>
+  <img src="./Avionics & Airbrakes/20260503_181810.jpg" alt="3D-Printed Airbrakes" width="35%" >
+  <img src="./Avionics & Airbrakes/20260503_181944.jpg" alt="CNC Machined Airbrakes" width="35%"> <br>
   <i>Figure 1: Petal-style 3D-printed and CNC Machined Airbrakes </i>
 </p>
 
@@ -18,4 +20,5 @@ Future iterations of the rocket will represent UC for the AURC 27 competition as
   <i>Figure 2: Complete Assembly of Rocket </i>
 </p>
 
-[![Pneumatic Sanding of Bogged Rocket](./Manufacturing/20260503_223115.jpg)](./Manufacturing/VID_0_20260504012638.mp4)
+[![Pneumatic Sanding of Bogged Rocket](./Manufacturing/thumb.png)](https://github.com/user-attachments/assets/902cc161-721b-4055-80e4-9f063cc6a469
+)
