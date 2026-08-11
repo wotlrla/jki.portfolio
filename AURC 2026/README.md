@@ -13,7 +13,7 @@ Future iterations of the rocket will represent UC for the AURC 27 competition as
 </p>
 
 <p align="center">
-  <img src="./Manufacturing/.jpg" alt="Unpainted version of Rocket" width="45%" >
-  <img src="./Manufacturing/.jpg" alt="Painted version of Rocket without sponsors" width="45%"> <br>
+  <img src="./Manufacturing/IMG_1123.jpg" alt="Unpainted Version of Rocket" width="45%" >
+  <img src="./Manufacturing/IMG_4892.jpg" alt="Painted Version of Rocket without Sponsors" width="45%"> <br>
   <i>Figure 1: Complete Assembly of Rocket </i>
 </p>
