@@ -55,7 +55,7 @@ With a broader understanding of power electronics under my belt, I wanted to exp
 
 Further improvements to the design could be explored by replacing the high-side PMOS with an NMOS and adding a bootstrap gate-drive circuit. This would create a **Dual-NMOS Synchronous Buck Converter**, potentially reducing conduction losses and improving the overall efficiency of the converter. Maximising efficiency in this way allows more of the available solar power to be delivered to the motor drivers while reducing power lost as heat. 
 
-Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working on this project with two other people, so stay tuned for updates throughout the year!
+Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working collaboratively on this project with two others, so stay tuned for updates throughout the year!
 
 <p align="center">
   <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="35%" >
