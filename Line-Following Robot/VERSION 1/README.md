@@ -6,7 +6,25 @@ My role was the three PCB's along with the wheel assembly for the robot. C++ was
 
 <p align="center">
   <img src="./LFR_real_life_design.png" alt="Build of Robot"><br>
-  <i>Figure 1: Photo of robot build</i>
+  <i>Figure 1: Assembly of Robot Build</i>
+</p>
+
+<p align="center">
+  <img src="./KiCad/Microcontroller/microprocessorPCB.png" alt="Microprocessor PCB Layout" width="35%" >
+  <img src="./KiCad/Microcontroller/microprocessorTopView3D.png" alt="Microprocessor 3D PCB Layout" width="35%"> <br>
+  <i>Figure 2: Microprocessor PCB Layout </i>
+</p>
+
+<p align="center">
+  <img src="./KiCad/Motor Driver/motorDriverPCB.png" alt="Motor Driver PCB Layout" width="40%" >
+  <img src="./KiCad/Motor Driver/motorDriverTopView3D.png" alt="Motor Driver 3D PCB Layout" width="40%"> <br>
+  <i>Figure 3: Motor Driver PCB Layout </i>
+</p>
+
+<p align="center">
+  <img src="./KiCad/Sensor Array/sensorArrayPCB.png" alt="Sensor Array PCB Layout" width="45%" >
+  <img src="./KiCad/Sensor Array/sensorArrayTopView3D.png" alt="Sensor Array 3D PCB Layout" width="45%"> <br>
+  <i>Figure 4: Sensor Array PCB Layout </i>
 </p>
 
 ## Note:
