@@ -2,11 +2,24 @@
 
 Using skills learned from my university courses, I have created a schematic using **KiCad** that I will test in real-world applications such as those found in UAVs and rocketry. This project involves design tasks such as schematic circuit design, verification, and characterisation, using COTS components such as the Raspberry Pi RP2354A. It also involves testing and validating hardware using tools such as oscilloscopes, as well as working with instrumentation such as accelerometers and barometers.
 
-A PCB based on the schematic layout will also be displayed here later in the year! The computer is intended to be fitted inside the payload tube of a high-power rocket and will therefore be designed to withstand large G-forces that could affect the accuracy of the instruments and electronics.
+So far, I have completed my schematic and PCB layout during my free time. In the future I will be assembling, testing, and validating the project for use in aerospace applications! The computer is intended to be fitted inside the payload tube of a high-power rocket and will therefore be designed to withstand large G-forces that could affect the accuracy of the instruments and electronics.
 
 <p align="center">
-  <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Flight Computer" width="80%"> <br>
-  <i>Figure 1: Schematic of Flight Computer</i>
+  <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Avionics Flight Computer" width="80%"> 
+<br>
+  <i>Figure 1: Schematic of Avionics Flight Computer</i>
+</p>
+
+<p align="center">
+  <img src="./Flight Computer/avionicsFlightComputerPCBLayout.png" alt="PCB Layout of Flight Computer" width="70%"> 
+<br>
+  <i>Figure 2: PCB Layout of Avionics Flight Computer</i>
+</p>
+
+<p align="center">
+  <img src="./Flight Computer/avionicsFlightComputer3DPCB.png" alt="Top view of 3D PCB Layout" width="45%" >
+  <img src="./Flight Computer/avionicsFlightComputer3DPCB_bottomview.png" alt="Bottom view of 3D PCB Layout" width="45%"> <br>
+  <i>Figure 3: 3D PCB layout of Avionics Flight Computer </i>
 </p>
 
 ## Solar-Powered Drone
@@ -30,7 +43,7 @@ I will be applying skills learned at university, such as **CAD Modelling** and *
 
 <p align="center">
   <img src="./NZUSC.png" alt="NZUSC Challenge" width="65%"> <br>
-  <i>Figure 2: NZUSC Challenge</i>
+  <i>Figure 4: NZUSC Challenge</i>
 </p>
 
 ## Audio Amplifier
@@ -47,7 +60,7 @@ A roadmap of what I would love to build on includes:
 <p align="center">
   <img src="./Audio Amplifier/audioAmplifierSchematic.png" alt="Schematic of Audio Amplifier" width="45%" >
   <img src="./Audio Amplifier/topViewPCB.png" alt="3D PCB layout" width="45%"> <br>
-  <i>Figure 3: Schematic and 3D PCB layout of Audio Amplifier </i>
+  <i>Figure 5: Schematic and 3D PCB layout of Audio Amplifier </i>
 </p>
 
 ## Solar Car
@@ -60,5 +73,5 @@ Ensuring that the solar panels operate within their rated 16–17.5 V range for 
 <p align="center">
   <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="35%" >
   <img src="./Solar Car/breadBoardCMOS2.png" alt="Breadboard circuit of a CMOS" width="35%"> <br>
-  <i>Figure 4: Breadboard circuit of a CMOS </i>
+  <i>Figure 6: Breadboard circuit of a CMOS Gate Driver</i>
 </p>
