@@ -1,8 +1,12 @@
 ## Avionics Flight Computer
 
-Using skills learned from my university courses, I have created a schematic using **KiCad** that I will test in real-world applications such as those found in UAVs and rocketry. This project involves design tasks such as schematic circuit design, verification, and characterisation, using COTS components such as the Raspberry Pi RP2354A. It also involves testing and validating hardware using tools such as oscilloscopes, as well as working with instrumentation such as accelerometers and barometers.
+Using skills learned from my university courses, I have completed schematic capture in **KiCad** to design hardware that I can test in real-world applications, such as those found in UAVs and rocketry. This project involves end-to-end design tasks, including circuit design, verification, and troubleshooting. I am also applying justifiable design decisions through my choice of COTS components, such as the Raspberry Pi RP2354A.
 
-So far, I have completed my schematic and PCB layout during my free time. In the future I will be assembling, testing, and validating the project for use in aerospace applications! The computer is intended to be fitted inside the payload tube of a high-power rocket and will therefore be designed to withstand large G-forces that could affect the accuracy of the instruments and electronics.
+Using tools such as oscilloscopes to verify and troubleshoot the board's circuitry before integrating onboard instrumentation, such as accelerometers and barometers, was an important aspect of this project. This was particularly important because the project only had one opportunity to launch each year, making it a small-scale introduction to the considerations involved in safety-critical systems found in commercial space launches. These onboard sensors will allow me to collect data during launch for post-flight analysis, while the RRC2+ altimeter system will independently monitor barometric pressure to detect apogee and trigger the drogue deployment system.
+
+In the future, I am planning to use one of the boards as a test article, as I am quite curious about how the system will behave under certain external conditions. For example, heating the board up in an oven to simulate extreme temperatures and investigate how it performs in high-vibration environments by placing it in a metal box and driving around with it secured inside a car (are some ideas). Finding out where and how the board fails is something I am curious about, and I would love to tabulate my findings later this year.
+
+For more context, the computer is intended to be fitted inside the payload tube of a high-power rocket and will therefore be designed to withstand high G-forces. Peak G-force is experienced during the launch off the rail, and during landing, so either could affect the accuracy of the instruments and the reliability of the electronics. Figure 1 shows the schematic of the flight computer through KiCad, and Figure 2-3 shows my board layout that is manufactured.
 
 <p align="center">
   <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Avionics Flight Computer" width="80%"> 
@@ -34,10 +38,10 @@ For now, here is a roadmap of the progress I've made:
 
 The electronics will use COTS components, including an **F405 Flight Controller** and a **60A ESC32** stack. This project pairs well with my avionics flight computer project as I continue learning more about electronics and their UAV applications outside of my coursework. It also gives me the opportunity to integrate the flight computer with the drone in the future.
 
-The reason for using large-diameter propellers and low-KV motors is purely for efficiency. Since the system is inherently energy-constrained due to its reliance on solar power, it is important to maximise efficiency wherever possible and justify every design choice against the project's requirements.
+The reason for using large-diameter propellers and low-KV brushless DC motors is purely for efficiency. Since the system is inherently energy-constrained due to its reliance on solar power, it is important to maximise efficiency wherever possible and justify every design choice against the project's requirements.
 
 ## New Zealand Undergraduate Space Challenge
-Outside of my courses, I will also be part of a student team developing a satellite designed for launch into space! Working in a multidisciplinary team will naturally bring communication challenges, but I have always seen these as valuable learning opportunities. Separate from the UC Aerospace Club, but under the supervision of engineering faculty such as Phil Gadsby, I am always eager to create new things and tackle challenging engineering problems!
+Outside of my courses, I will also be part of a student team developing a satellite designed for launch into space! Working in a multidisciplinary team will naturally bring communication challenges, but I have always seen these as valuable learning opportunities. Separate from the UC Aerospace Club, but under the supervision of engineering faculty such as Phil Gadsby, I am always eager to create new things and tackle challenging engineering problems.
 
 I will be applying skills learned at university, such as **CAD Modelling** and **KiCad**, to develop payload experiments that will be integrated into a shared CubeSat platform. Gaining hands-on experience in aerospace applications like this will continue to develop my skills as an engineering student, and I hope to make a meaningful impact in whichever industry I pursue.
 
@@ -64,11 +68,36 @@ A roadmap of what I would love to build on includes:
 </p>
 
 ## Solar Car
-With a broader understanding of power electronics under my belt, I wanted to explore a purely analogue design using a **PMOS/NMOS Synchronous Buck Converter** as a step-down DC-DC power conversion stage. Since the solar car relies on photovoltaic power from the sun, the PCB layout must be as efficient as possible. Minimising trace lengths and ensuring optimal signal feedback are key design considerations for this project. Using **LTspice simulation**, I can check whether my calculations match expected values.
 
-Further improvements to the design could be explored by replacing the high-side PMOS with an NMOS and adding a bootstrap gate-drive circuit. This would create a **Dual-NMOS Synchronous Buck Converter**, potentially reducing conduction losses and improving the overall efficiency of the converter. Maximising efficiency in this way allows more of the available solar power to be delivered to the motor drivers while reducing power lost as heat. 
+Designed and implemented a high-efficiency, closed-loop buck converter to regulate solar panel output for a DC motor in a solar-powered car application. The objective was to maintain operation at the panel’s maximum power point (MPP) while delivering a stable voltage under variable load conditions. The project progressed from initial breadboard testing to veroboard and, finally, to a two-layer PCB designed using KiCad.
 
-Ensuring that the solar panels operate within their rated 16–17.5 V range for maximum power output to the motor drivers is an engineering design challenge that requires careful PCB layout and power system design. I will be working collaboratively on this project with two others, so stay tuned for updates throughout the year!
+Before assembling the design, ensuring that the calculations aligned with the expected simulations in LTspice was an important learning point in this project. Verifying that waveforms matched the expected outputs (e.g. square waveforms) helped confirm that the PWM output was working as intended. This also allowed me to test the design in stages and identify whether the TL494 switching controller, CMOS gate driver, or power stage was failing.
+
+Taking this project end-to-end, from open-loop breadboard testing to transferring the design onto a practical hardware application such as a solar car, took my troubleshooting and design skills to another level. My key learnings from this project are summarised below.
+
+### Key Responsibilities
+* **Designed** a DC-DC buck converter from first principles, including inductor sizing, air gap calculation, and capacitor selection
+* **Developed** a closed-loop feedback control system using an integrator-based PWM controller
+* **Implemented** a MOSFET-based gate driver to improve switching speed and reduce conduction losses
+* **Designed and optimized** a custom PCB layout to minimize parasitic inductance, capacitance, and switching noise
+* **Characterized** the solar panel to determine maximum power point across varying light conditions
+* **Validated performance** through oscilloscope measurements and LTspice simulations
+
+### Key Learnings
+
+* **Developed** my understanding of troubleshooting through oscilloscopes and how specific design decisions can affect how the circuit is behaving
+* **Applied power electronics theory** to a real-world renewable energy system
+* **Gained practical experience** in magnetic component design (inductor windings, air gap sizing)
+* **Strengthened** understanding of switching losses, control stability, and ripple minimisation
+* **Developed** PCB layout strategies for high di/dt and dv/dt systems
+* **Learned** the importance of iterative testing between simulation and hardware outcomes
+
+
+In summary, a functional buck converter was delivered being capable of stable voltage regulation under varying solar input and load conditions. Achieved low output voltage ripple and fast switching response (36 ns switching time). Will compete in the Solar Car Competition @ UC on 22nd of Oct!
+
+### Future Improvements
+
+In regards to the project timeline, an asynchronous buck converter was designed for the sake of simplicity. This cut down the time to manufacture, test, and assemble the boards, but obviously leaves room for efficiency gains in the design. An avenue I would pursue if continuing the project would be to create a synchronous buck converter, which will need a bootstrap circuit to drive the high-side N-channel MOSFET. This would replace the BS250P PMOS, BS270 NMOS, and SB240S diode in the power stage to a synchronous driver (e.g. a IR21844), along with both IPP034N03L N-channel MOSFETs acting as the low-side and high-side instead. This would effectively allow another MOSFET to be placed in parallel to the free-wheel diode, which when on, would effectively bypass the diode and rmeove the associated losses in the circuit. Due to the limited resources found in the electrical store at the University, only through hole components could be used in the design. Replacing the capacitors and resistors with SMD components would reduce noise by having a smaller di/dt and dv/dt loops while also being able to further reduce the package size.
 
 <p align="center">
   <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="35%" >
