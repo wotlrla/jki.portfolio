@@ -9,20 +9,20 @@ In the future, I am planning to use one of the boards as a test article, as I am
 For more context, the computer is intended to be fitted inside the payload tube of a high-power rocket and will therefore be designed to withstand high G-forces. Peak G-force is experienced during the launch off the rail, and during landing, so either could affect the accuracy of the instruments and the reliability of the electronics. Figure 1 shows the schematic of the flight computer through KiCad, and Figure 2-3 shows my board layout that is manufactured.
 
 <p align="center">
-  <img src="./Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Avionics Flight Computer" width="80%"> 
+  <img src="./Custom Flight Computer/avionicsFlightComputerSchematic.png" alt="Schematic of Avionics Flight Computer" width="80%"> 
 <br>
   <i>Figure 1: Schematic of Avionics Flight Computer</i>
 </p>
 
 <p align="center">
-  <img src="./Flight Computer/avionicsFlightComputerPCBLayout.png" alt="PCB Layout of Flight Computer" width="70%"> 
+  <img src="./Custom Flight Computer/avionicsFlightComputerPCBLayout.png" alt="PCB Layout of Flight Computer" width="70%"> 
 <br>
   <i>Figure 2: PCB Layout of Avionics Flight Computer</i>
 </p>
 
 <p align="center">
-  <img src="./Flight Computer/avionicsFlightComputer3DPCB.png" alt="Top view of 3D PCB Layout" width="45%" >
-  <img src="./Flight Computer/avionicsFlightComputer3DPCB_bottomview.png" alt="Bottom view of 3D PCB Layout" width="45%"> <br>
+  <img src="./Custom Flight Computer/avionicsFlightComputer3DPCB.png" alt="Top view of 3D PCB Layout" width="45%" >
+  <img src="./Custom Flight Computer/avionicsFlightComputer3DPCB_bottomview.png" alt="Bottom view of 3D PCB Layout" width="45%"> <br>
   <i>Figure 3: 3D PCB layout of Avionics Flight Computer </i>
 </p>
 
@@ -93,11 +93,21 @@ Taking this project end-to-end, from open-loop breadboard testing to transferrin
 * **Learned** the importance of iterative testing between simulation and hardware outcomes
 
 
-In summary, a functional buck converter was delivered being capable of stable voltage regulation under varying solar input and load conditions. Achieved low output voltage ripple and fast switching response (36 ns switching time). Will compete in the Solar Car Competition @ UC on 22nd of Oct!
+In summary, a functional DC-DC buck converter was delivered, being capable of stable voltage regulation under varying solar input and load conditions. Achieved low output voltage ripple and fast switching response (36 ns switching time). Will compete in the Solar Car Competition @ UC on 22nd of Oct!
 
 ### Future Improvements
 
-In regards to the project timeline, an asynchronous buck converter was designed for the sake of simplicity. This cut down the time to manufacture, test, and assemble the boards, but obviously leaves room for efficiency gains in the design. An avenue I would pursue if continuing the project would be to create a synchronous buck converter, which will need a bootstrap circuit to drive the high-side N-channel MOSFET. This would replace the BS250P PMOS, BS270 NMOS, and SB240S diode in the power stage to a synchronous driver (e.g. a IR21844), along with both IPP034N03L N-channel MOSFETs acting as the low-side and high-side instead. This would effectively allow another MOSFET to be placed in parallel to the free-wheel diode, which when on, would effectively bypass the diode and rmeove the associated losses in the circuit. Due to the limited resources found in the electrical store at the University, only through hole components could be used in the design. Replacing the capacitors and resistors with SMD components would reduce noise by having a smaller di/dt and dv/dt loops while also being able to further reduce the package size.
+In regards to the project timeline, an asynchronous buck converter was designed for the sake of simplicity. This cut down the time to manufacture, test, and assemble the boards, but obviously leaves room for efficiency gains in the design. 
+
+An avenue I would pursue if continuing the project would be to create a synchronous buck converter, which will need a bootstrap circuit to drive the high-side N-channel MOSFET. This would replace the BS250P PMOS, BS270 NMOS, and SB240S diode in the power stage to a synchronous driver (e.g. a IR21844), along with both IPP034N03L N-channel MOSFETs acting as the low-side and high-side instead. This would effectively allow another MOSFET to be placed in parallel to the free-wheel diode, which when on, would effectively bypass the diode and remove the associated losses in the circuit. 
+
+Due to the limited resources found in the electrical store at the University, only through hole components could be used in the design. Replacing the capacitors and resistors with SMD components would reduce noise by having a smaller di/dt and dv/dt loops while also being able to further reduce the package size.
+
+<p align="center">
+  <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="35%" >
+  <img src="./Solar Car/breadBoardCMOS2.png" alt="Breadboard circuit of a CMOS" width="35%"> <br>
+  <i>Figure 6: Breadboard circuit of a CMOS Gate Driver</i>
+</p>
 
 <p align="center">
   <img src="./Solar Car/breadBoardCMOS.png" alt="Breadboard circuit of a CMOS" width="35%" >
